@@ -1,0 +1,3 @@
+/vendor/
+/Data/*
+!/Data/.gitkeep

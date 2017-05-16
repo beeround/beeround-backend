@@ -2,8 +2,7 @@
   "name": "karstenschutz/attribute-check",
   "require": {
     "symfony/console": "^3.1",
-    "symfony/yaml": "^3.1.6",
-    "getresponse/getresponse": "0.0.2"
+    "symfony/yaml": "^3.1.6"
 
   },
   "autoload": {

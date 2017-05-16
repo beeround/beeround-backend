@@ -9,7 +9,6 @@ class DatabaseHelper
     protected $connections;
 
     /**
-     * @Flow\InjectConfiguration(package="Koempf.Utilities", path="DatabaseHelper")
      * @var array
      */
     protected $settings = [
