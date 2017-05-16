@@ -1,0 +1,20 @@
+{
+  "name": "karstenschutz/attribute-check",
+  "require": {
+    "symfony/console": "^3.1",
+    "symfony/yaml": "^3.1.6",
+    "getresponse/getresponse": "0.0.2"
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Koempf\\KarstenScripts\\": "Classes/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Karsten Schütz",
+      "email": "karstenschuetz@web.de"
+    }
+  ]
+}
