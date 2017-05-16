@@ -4,31 +4,33 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2b717c1654daec569f03c721357ea2c7",
-    "content-hash": "4ab342bb46c948e514e512a86f3e4f7f",
+    "hash": "a652053e3753bd6a332c0f92e7d22bfd",
+    "content-hash": "c2cc254f51fd85bdca5e6919a51c4c0b",
     "packages": [
         {
-            "name": "getresponse/getresponse",
-            "version": "0.0.2",
+            "name": "mevdschee/php-crud-api",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/GetResponse/getresponse-api-php.git",
-                "reference": "a33b1081eeb7c0937e46383344068a2a6e847ce5"
+                "url": "https://github.com/mevdschee/php-crud-api.git",
+                "reference": "25afd1c6334b2577ddb64462bd553166b956e182"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GetResponse/getresponse-api-php/zipball/a33b1081eeb7c0937e46383344068a2a6e847ce5",
-                "reference": "a33b1081eeb7c0937e46383344068a2a6e847ce5",
+                "url": "https://api.github.com/repos/mevdschee/php-crud-api/zipball/25afd1c6334b2577ddb64462bd553166b956e182",
+                "reference": "25afd1c6334b2577ddb64462bd553166b956e182",
                 "shasum": ""
             },
             "require": {
-                "ext-curl": "*",
-                "php": ">=5.2.0"
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.0"
             },
             "type": "library",
             "autoload": {
                 "files": [
-                    "src/GetResponseAPI3.class.php"
+                    "api.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -37,22 +39,28 @@
             ],
             "authors": [
                 {
-                    "name": "Pawel Maslak",
-                    "email": "pawel.maslak@getresponse.com"
-                },
-                {
-                    "name": "Grzegorz Struczynski",
-                    "email": "grzegorz.struczynski@getresponse.com"
+                    "name": "Maurits van der Schee",
+                    "email": "maurits@vdschee.nl",
+                    "homepage": "https://github.com/mevdschee"
                 }
             ],
-            "description": "GetResponse API v3 client library.",
-            "homepage": "https://github.com/GetResponse/getresponse-api-php",
+            "description": "Single file PHP script that adds a REST API to a SQL database.",
+            "homepage": "https://github.com/mevdschee/php-crud-api",
             "keywords": [
-                "api",
-                "email",
-                "getresponse"
+                "PHP-API",
+                "api-server",
+                "crud",
+                "geospatial",
+                "mysql",
+                "openapi",
+                "postgis",
+                "postgresql",
+                "rest-api",
+                "restful",
+                "sql-server",
+                "swagger"
             ],
-            "time": "2015-11-25 12:38:33"
+            "time": "2017-04-16 07:28:42"
         },
         {
             "name": "psr/log",
@@ -103,16 +111,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v3.2.6",
+            "version": "v3.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "28fb243a2b5727774ca309ec2d92da240f1af0dd"
+                "reference": "a7a17e0c6c3c4d70a211f80782e4b90ddadeaa38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/28fb243a2b5727774ca309ec2d92da240f1af0dd",
-                "reference": "28fb243a2b5727774ca309ec2d92da240f1af0dd",
+                "url": "https://api.github.com/repos/symfony/console/zipball/a7a17e0c6c3c4d70a211f80782e4b90ddadeaa38",
+                "reference": "a7a17e0c6c3c4d70a211f80782e4b90ddadeaa38",
                 "shasum": ""
             },
             "require": {
@@ -162,20 +170,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-06 19:30:27"
+            "time": "2017-04-26 01:39:17"
         },
         {
             "name": "symfony/debug",
-            "version": "v3.2.6",
+            "version": "v3.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "b90c9f91ad8ac37d9f114e369042d3226b34dc1a"
+                "reference": "fd6eeee656a5a7b384d56f1072243fe1c0e81686"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/b90c9f91ad8ac37d9f114e369042d3226b34dc1a",
-                "reference": "b90c9f91ad8ac37d9f114e369042d3226b34dc1a",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/fd6eeee656a5a7b384d56f1072243fe1c0e81686",
+                "reference": "fd6eeee656a5a7b384d56f1072243fe1c0e81686",
                 "shasum": ""
             },
             "require": {
@@ -219,7 +227,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-18 17:28:00"
+            "time": "2017-04-19 20:17:50"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -282,16 +290,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.6",
+            "version": "v3.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "093e416ad096355149e265ea2e4cc1f9ee40ab1a"
+                "reference": "acec26fcf7f3031e094e910b94b002fa53d4e4d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/093e416ad096355149e265ea2e4cc1f9ee40ab1a",
-                "reference": "093e416ad096355149e265ea2e4cc1f9ee40ab1a",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/acec26fcf7f3031e094e910b94b002fa53d4e4d6",
+                "reference": "acec26fcf7f3031e094e910b94b002fa53d4e4d6",
                 "shasum": ""
             },
             "require": {
@@ -333,13 +341,15 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-07 16:47:02"
+            "time": "2017-05-01 14:55:58"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "mevdschee/php-crud-api": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

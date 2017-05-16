@@ -14,10 +14,10 @@ class DatabaseHelper
     protected $settings = [
         'Connections' => [
             'default' => [
-                'hostname' => '*',
-                'user' => '*',
-                'password' => '*',
-                'database' => '*',
+                'hostname' => '127.0.0.1',
+                'user' => 'dev',
+                'password' => 'dev',
+                'database' => 'beeround',
             ]
         ]
     ];
@@ -178,5 +178,9 @@ class DatabaseHelper
             throw new \Exception('Query failed: ' . $this->getConnectionByQuery($query)->error);
         }
         return $result;
+    }
+
+    public function setValues(){
+
     }
 }
